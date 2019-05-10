@@ -1,0 +1,90 @@
+Exploding /Users/wenxiaofang/.m2/repository/org/jenkins-ci/main/jenkins-war/1.580.1/jenkins-war-1.580.1-war-for-test.jar into /Users/wenxiaofang/Downloads/jenkins-weixin/./target/jenkins-for-test
+May 10, 2019 12:39:19 AM org.mortbay.log.Slf4jLog info
+INFO: Logging to org.slf4j.impl.JDK14LoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+May 10, 2019 12:39:19 AM org.mortbay.log.Slf4jLog info
+INFO: jetty-6.1.26
+May 10, 2019 12:39:20 AM org.mortbay.log.Slf4jLog info
+INFO: NO JSP Support for , did not find org.apache.jasper.servlet.JspServlet
+May 10, 2019 12:39:20 AM org.mortbay.log.Slf4jLog info
+INFO: Started SocketConnector@0.0.0.0:64966
+May 10, 2019 12:39:21 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+May 10, 2019 12:39:31 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+May 10, 2019 12:39:31 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+May 10, 2019 12:39:31 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+May 10, 2019 12:39:31 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+May 10, 2019 12:39:31 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+May 10, 2019 12:39:34 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+May 10, 2019 12:39:34 AM hudson.UDPBroadcastThread run
+WARNING: UDP handling problem
+java.net.SocketException: Can't assign requested address
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:178)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:76)
+
+May 10, 2019 12:39:34 AM org.mortbay.log.Slf4jLog info
+INFO: jetty-6.1.26
+May 10, 2019 12:39:34 AM org.mortbay.log.Slf4jLog info
+INFO: Started SocketConnector@0.0.0.0:65026
+May 10, 2019 12:39:35 AM org.mortbay.log.Slf4jLog info
+INFO: Stopped SocketConnector@0.0.0.0:64966
+May 10, 2019 12:39:35 AM hudson.TcpSlaveAgentListener shutdown
+WARNING: Failed to close down TCP port
+java.io.IOException: No such file or directory
+	at sun.nio.ch.NativeThread.signal(Native Method)
+	at sun.nio.ch.ServerSocketChannelImpl.implCloseSelectableChannel(ServerSocketChannelImpl.java:292)
+	at java.nio.channels.spi.AbstractSelectableChannel.implCloseChannel(AbstractSelectableChannel.java:234)
+	at java.nio.channels.spi.AbstractInterruptibleChannel.close(AbstractInterruptibleChannel.java:115)
+	at hudson.TcpSlaveAgentListener.shutdown(TcpSlaveAgentListener.java:119)
+	at jenkins.model.Jenkins.cleanUp(Jenkins.java:2794)
+	at org.jvnet.hudson.test.HudsonTestCase.tearDown(HudsonTestCase.java:413)
+	at org.jvnet.hudson.test.JellyTestSuiteBuilder$JellyTestSuite.tearDown(JellyTestSuiteBuilder.java:138)
+	at org.jvnet.hudson.test.junit.GroupedTest.run(GroupedTest.java:53)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:84)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:264)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:153)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:124)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:200)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:153)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+
+May 10, 2019 12:39:35 AM org.mortbay.log.Slf4jLog info
+INFO: jetty-6.1.26
+May 10, 2019 12:39:35 AM org.mortbay.log.Slf4jLog info
+INFO: NO JSP Support for , did not find org.apache.jasper.servlet.JspServlet
+May 10, 2019 12:39:35 AM org.mortbay.log.Slf4jLog info
+INFO: Started SocketConnector@0.0.0.0:65036
+May 10, 2019 12:39:35 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started initialization
+May 10, 2019 12:39:35 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Listed all plugins
+May 10, 2019 12:39:35 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Prepared all plugins
+May 10, 2019 12:39:35 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Started all plugins
+May 10, 2019 12:39:35 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Augmented all extensions
+May 10, 2019 12:39:35 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Loaded all jobs
+May 10, 2019 12:39:36 AM jenkins.InitReactorRunner$1 onAttained
+INFO: Completed initialization
+May 10, 2019 12:39:36 AM hudson.UDPBroadcastThread run
+WARNING: UDP handling problem
+java.net.SocketException: Can't assign requested address
+	at java.net.PlainDatagramSocketImpl.join(Native Method)
+	at java.net.AbstractPlainDatagramSocketImpl.join(AbstractPlainDatagramSocketImpl.java:178)
+	at java.net.MulticastSocket.joinGroup(MulticastSocket.java:323)
+	at hudson.UDPBroadcastThread.run(UDPBroadcastThread.java:76)
+
+=== Starting CliSanityTest.testCliSanity
+May 10, 2019 12:39:36 AM org.mortbay.log.Slf4jLog info
+INFO: Stopped SocketConnector@0.0.0.0:65036

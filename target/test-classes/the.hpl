@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Group-Id: me.sherry
+Short-Name: jenkins-weixin
+Long-Name: WX Plugin
+Url: https://wiki.jenkins-ci.org/display/JENKINS/WXPlugin
+Plugin-Version: 1.0-SNAPSHOT (private-aca415e8-wenxiaofang)
+Hudson-Version: 1.580.1
+Jenkins-Version: 1.580.1
+Plugin-Developers: 
+Libraries: /Users/wenxiaofang/Downloads/jenkins-weixin/target/classes,
+ /Users/wenxiaofang/.m2/repository/com/alibaba/fastjson/1.2.54/fastjso
+ n-1.2.54.jar,/Users/wenxiaofang/.m2/repository/commons-logging/common
+ s-logging/1.2/commons-logging-1.2.jar,/Users/wenxiaofang/.m2/reposito
+ ry/commons-codec/commons-codec/1.9/commons-codec-1.9.jar,/Users/wenxi
+ aofang/.m2/repository/org/apache/httpcomponents/httpcore/4.4.5/httpco
+ re-4.4.5.jar,/Users/wenxiaofang/.m2/repository/org/apache/httpcompone
+ nts/httpclient/4.5.2/httpclient-4.5.2.jar
+Resource-Path: /Users/wenxiaofang/Downloads/jenkins-weixin/src/main/we
+ bapp
+

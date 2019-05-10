@@ -1,0 +1,35 @@
+<?jelly escape-by-default='true'?>
+
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form">
+
+    <f:entry title="Project(空格请替换为%20)" field="project">
+        <f:textbox />
+    </f:entry>
+
+    <f:entry title="CorpId(企业ID)" field="corpId">
+        <f:textbox />
+    </f:entry>
+
+    <f:entry title="Secret(应用密钥)" field="secret">
+        <f:textbox />
+    </f:entry>
+
+    <f:entry title="AgentId(应用ID)" field="agentId">
+        <f:textbox />
+    </f:entry>
+
+    <f:entry title="DepartmentId(部门ID,多个用'|'分割)" field="departmentId">
+        <f:textbox />
+    </f:entry>
+
+    <f:entry title="ChatId(群ID,多个用'|'分割)" field="chatId">
+        <f:textbox />
+    </f:entry>
+
+    <f:entry title="User(通知用户,多个用'|'分割)" field="user">
+        <f:textbox />
+    </f:entry>
+
+</j:jelly>
+
+
